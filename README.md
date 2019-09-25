@@ -2,10 +2,8 @@
 
 A simple php snippet for push message to firebase 
 
-#usage 
 
-<?php 
-	
+```php
 	require 'firebase_lib.php';
 	// create new object for Firebase class 
 	$ob = new Firebase();
@@ -24,5 +22,4 @@ A simple php snippet for push message to firebase
 	// call the push method to send notification 
 	$res = $ob->push($msg);
 	var_dump($res);
-
-?>
+```
