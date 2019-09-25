@@ -3,6 +3,10 @@
 A simple php snippet for push message to firebase 
 
 
+# usage
+
+open `firebase_lib.php` file and change the api key to your own 
+
 ```php
 	require 'firebase_lib.php';
 	// create new object for Firebase class 
